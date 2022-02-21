@@ -30,8 +30,11 @@ class Queue {
     }
     
     // Get the front element.
-    public int peek() {
-
+    public int peek(){
+        while(!obj1.empty()){
+            obj2.push(obj1.pop());
+        }
+        return obj2.peek();
     }
     
     // Return whether the queue is empty.
