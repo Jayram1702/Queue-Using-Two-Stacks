@@ -17,8 +17,10 @@ class Queue {
 
     // Push element x to the back of queue.
     public void enqueue(int x) {
-
+        obj1.push(x);
     }
+
+
 
     // Removes the element from in front of queue.
     public int dequeue() {
