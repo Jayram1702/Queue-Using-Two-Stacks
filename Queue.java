@@ -20,11 +20,13 @@ class Queue {
         obj1.push(x);
     }
 
-
-
     // Removes the element from in front of queue.
-    public int dequeue() {
-
+    public int dequeue(){
+        while (!obj1.empty()){
+            obj2.push(obj1.pop());
+        }
+        i++;
+        return obj2.pop();
     }
     
     // Get the front element.
