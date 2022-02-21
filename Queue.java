@@ -42,10 +42,13 @@ class Queue {
         return (obj2.empty() && obj1.empty());
     }
 
-
     // Return the number of elements in queue.
-    public boolean size() {
-
+    public boolean size(){
+        if (i==0){
+        return obj1.size();}
+        else{
+            return obj2.size();
+        }
     }
     
     public static void main(String[] args) {
