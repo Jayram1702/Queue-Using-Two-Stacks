@@ -38,9 +38,10 @@ class Queue {
     }
     
     // Return whether the queue is empty.
-    public boolean empty() {
-
+    public boolean empty(){
+        return (obj2.empty() && obj1.empty());
     }
+
 
     // Return the number of elements in queue.
     public boolean size() {
