@@ -43,7 +43,7 @@ class Queue {
     }
 
     // Return the number of elements in queue.
-    public boolean size(){
+    public int size(){
         if (i==0){
         return obj1.size();}
         else{
